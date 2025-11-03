@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Chroma DB (벡터 데이터베이스 저장소)
+chroma_db/
+*.db
+*.sqlite3
+
+# PDF 파일 (용량이 큰 경우 제외)
+# pdf/*.pdf
+
+# 로그 파일
+*.log
